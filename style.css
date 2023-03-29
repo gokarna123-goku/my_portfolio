@@ -356,18 +356,127 @@ a{
 
 
 /* Education and Skill Section Styling */
+.skill_education_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.skill_education_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
 
 /* Skill Section Styling */
 .skill_section{
-    width: 49%;
+    width: 47%;
     height: auto;
+}
+.progress_bar_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.progress_title{
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+.progress_count{
+    font-size: 1.3rem;
+    color: var(--secondary);
+    font-weight: 600;
+}
+.progress{
+    border-radius: 0px;
+    background: var(--tertiary);
+}
+.progress-bar{
+    background: var(--secondary);
 }
 
 
 /* Education Section Styling */
 .education_section{
-    width: 49%;
+    width: 45%;
     height: auto;
+}
+.education_box{
+    width: auto;
+    height: auto;
+    background: #013a48;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.education_img{
+    width: 50px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+.education_info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.education_title{
+    font-size: 1.3rem;
+    color: var(--primary);
+}
+.duration{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.start_date{
+    width: 150px;
+    background: #022028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tertiary);
+}
+.indicator{
+    width: 20px;
+    height: 3px;
+    background: var(--tertiary);
+}
+.end_date{
+    width: 150px;
+    background: #022028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--tertiary);
+}
+
+/* Services Section Styling */
+.services_section{
+    width: 100%;
+    height: auto;
+}
+.our_services_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.services_box{
+    width: 48%;
+    height: auto;
+    background: #013a48;
+}
+.service_logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
 }
 
 
