@@ -464,20 +464,97 @@ a{
     height: auto;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 1.5rem;
 }
 .services_box{
     width: 48%;
     height: auto;
     background: #013a48;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    transition: 0.3s ease-out;
+}
+.services_box:hover{
+    box-shadow: 0px 0px 10px var(--secondary);
 }
 .service_logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
 }
+.service_title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--primary);
+}
+.service_desc{
+    font-size: 0.999rem;
+    color: var(--tertiary);
+}
+
+
+/* Portfolio Secction Styling */
+.our_project_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.portfolio_box{
+    width: 360px;
+    height: auto;
+    background: #013a48;
+}
+.portfolio_img{
+    width: 100%;
+    height: 30vh;
+}
+.portfolio_title{
+    font-size: 1.5rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+.portfolio_desc{
+    font-size: 0.999rem;
+    color: var(--tertiary);
+}
+
+.btn_live_demo{
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.btn_live_demo:hover{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.btn_view_detail{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.btn_view_detail:hover{
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+}
+
+
 
 
 
