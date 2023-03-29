@@ -634,6 +634,103 @@ a{
     border: 2px solid var(--secondary);
 }
 
+/* Contact Section Styling */
+.contact_section{
+    width: 100%;
+    height: auto;
+}
+.contact_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+/* Contact Detail box Styling */
+.contact_detail_box{
+    width: 34%;
+    height: auto;
+}
+.contact_info_box{
+    width: 100%;
+    height: auto;
+    background: #013a48;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.contact_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.contact_title{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+
+
+
+/* Contact Form Styling */
+.contact_form_box{
+    width: 64%;
+    height: auto;
+}
+.two_field{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.input_field{
+    width: 49%;
+    height: auto;
+}
+.label_text{
+    font-size: 1.2rem;
+    color: var(--tertiary);
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.contact_form_box .form-control{
+    background: #022028;
+    outline: none;
+    color: var(--tertiary);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border: 1px solid #022028;
+}
+.contact_form_box .form-control:focus,
+.contact_form_box .form-control:active:focus,
+.contact_form_box .form-control.active:focus{
+    outline: none;
+    box-shadow: 0px 0px 6px var(--secondary);
+    background: #022028;
+    color: var(--tertiary);
+    border: 1px solid var(--secondary);
+}
+
+.btn_submit{
+    width: 160px;
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.btn_submit:hover{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
 
 
 /* End Section */
