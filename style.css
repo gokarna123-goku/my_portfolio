@@ -1,0 +1,222 @@
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* --bg-gradient: linear-gradient(-45deg, #1aacd0, #9e25df); */
+    --bg-gradient: linear-gradient(-45deg, #013a48, #3f0260);
+    --primary: #eeeeee;
+    --secondary: #0682a1;
+    --tertiary: #a8a8a8;
+    /* --img-gradient: linear-gradient(to right, rgba(26, 172, 208, 0.72), rgba(26, 172, 208, 0.71)); */
+    --img-gradient: linear-gradient(to right, rgba(3, 58, 72, 0.82), rgba(3, 58, 72, 0.81));
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Bootstrap input and button styling */
+.btn{
+    border-radius: 0px !important;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.form-control:focus, .form-control:active:focus, .form-control.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    border-radius: 0px !important;
+}
+.form-check-input[type=checkbox]{
+    border-radius: 0px !important;
+}
+.form-check-input:focus, .form-check-input:active:focus, .form-check-input.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* Main Section */
+.main_section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: var(--bg-gradient);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+/* Left Section */
+.left_section{
+    position: relative;
+    width: 18%;
+    border-radius: 0px;
+    background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(1.3px);
+    -webkit-backdrop-filter: blur(1.3px);
+    border-right: 1px solid rgba(0, 156, 254, 0.8);
+}
+.logo_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-bottom: 2px solid rgba(0, 156, 254, 0.4);
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.nav_items_section{
+    width: 100%;
+    height: auto;
+}
+.nav-pills .nav-link{
+    width: 100%;
+    color: var(--primary);
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+}
+.nav-pills .nav-link:hover{
+    background: #022028;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link{
+    color: var(--primary);
+    background: #022028;
+    border-bottom: none;
+}
+.social_links{
+    width: 100%;
+    position: absolute;
+    bottom: 22px;
+    border-top: 2px solid #022028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.social_link{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #022028;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_link i{
+    font-size: 1.2rem;
+    color: var(--primary);
+}
+
+
+/* Right Section */
+.right_section{
+    width: 80%;
+    max-height: 88vh;
+    margin: 4.5rem 5rem 2rem auto;
+    overflow-y: scroll;
+}
+.content_body{
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+.home_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+}
+
+/* my_info_section */
+.my_info_section{
+    width: 50%;
+    height: auto;
+}
+.greeting{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+    color: var(--tertiary);
+}
+.fullname{
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    color: var(--primary);
+}
+.my_profession{
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    color: var(--secondary);
+}
+.desc{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--tertiary);
+}
+.hire_me_btn{
+    width: 150px;
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.hire_me_btn:hover{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+
+
+/* image_section */
+.image_section{
+    width: 46%;
+    height: auto;
+    background: #a8a8a8;
+    border-radius: 40px;
+}
+.my_img{
+    width: 100%;
+    height: 70vh;
+    padding: 0.6rem;
+    border-radius: 40px;
+}
+
+
+/* End Section */

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Cdn Link -->
+    <script src="https://kit.fontawesome.com/676eaf438a.js" crossorigin="anonymous"></script>
+    <!-- JQuery Cdn Link -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="./style.css">
+    <title>G-Tech | Portfolio</title>
+</head>
+
+<body>
+    <div class="container-fluid px-0 mx-0 main_section">
+        <!-- Navbar Section -->
+        <div class="navbar_section left_section">
+            <div class="logo_section px-3 py-4 mb-5">
+                <img src="./img/logo.png" alt="Logo" class="logo">
+                <button type="button" class="btn menu_bar">
+                    <i class="fa-solid fa-bars-staggered text-light"></i>
+                </button>
+            </div>
+            <div class="nav_items_section py-4 px-0">
+                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="btn nav-link active py-3" id="v-pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                        aria-selected="true">
+                        <i class="fa-solid fa-house-user mx-3 pt-1"></i> Home
+                    </button>
+                    <button class="btn nav-link py-3" id="v-pills-about-me-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-about-me" type="button" role="tab" aria-controls="v-pills-about-me"
+                        aria-selected="false">
+                        <i class="fa-solid fa-address-card mx-3 pt-1"></i> About Me
+                    </button>
+                    <button class="btn nav-link py-3" id="v-pills-services-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-services" type="button" role="tab" aria-controls="v-pills-services"
+                        aria-selected="false">
+                        <i class="fa-solid fa-sliders mx-3 pt-1"></i> Services
+                    </button>
+                    <button class="btn nav-link py-3" id="v-pills-portfolio-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-portfolio" type="button" role="tab" aria-controls="v-pills-portfolio"
+                        aria-selected="false">
+                        <i class="fa-solid fa-briefcase mx-3 pt-1"></i> Portfolio
+                    </button>
+                    <button class="btn nav-link py-3" id="v-pills-blog-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-blog" type="button" role="tab" aria-controls="v-pills-blog"
+                        aria-selected="false">
+                        <i class="fa-solid fa-blog mx-3 py-1"></i> Blog
+                    </button>
+                    <button class="btn nav-link py-3" id="v-pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#v-pills-contact" type="button" role="tab" aria-controls="v-pills-contact"
+                        aria-selected="false">
+                        <i class="fa-solid fa-address-book mx-3 py-1"></i> Contact
+                    </button>
+                </div>
+            </div>
+            <div class="social_links p-3">
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="social_link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <!-- Body Content Section -->
+        <div class="body_content_section right_section">
+            <div class="content_body p-3">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                        aria-labelledby="v-pills-home-tab">
+                        <div class="home_section">
+                            <div class="my_info_section">
+                                <h6 class="greeting mb-3">Hello, 👋 I am</h6>
+                                <h3 class="fullname mb-3">G-Tech Official</h3>
+                                <h6 class="my_profession mb-4">I'm a Full-Stack Developer! 💻 </h6>
+                                <p class="desc pe-5 mb-5">
+                                    I help you build brand for your business at an affordable price. Thousands of
+                                    clients have procured exceptional results while working with our dedicated team.
+                                    when an unknown printer took a galley of type and scrambled it to make a type
+                                    specimen book.
+                                </p>
+                                <button class="btn hire_me_btn">Hire Me</button>
+                            </div>
+                            <div class="image_section">
+                                <img src="./img/g_tech.jpg" alt="My Image" class="my_img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-about-me" role="tabpanel"
+                        aria-labelledby="v-pills-about-me-tab">
+                        about Page Buddy
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-services" role="tabpanel"
+                        aria-labelledby="v-pills-services-tab">
+                        services Page Buddy
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-portfolio" role="tabpanel"
+                        aria-labelledby="v-pills-portfolio-tab">
+                        portfolio Page Buddy
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-blog" role="tabpanel" aria-labelledby="v-pills-blog-tab">
+                        blog Page Buddy
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-contact" role="tabpanel"
+                        aria-labelledby="v-pills-contact-tab">
+                        contact Page Buddy
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link your custom javascript link -->
+
+    <!-- Bootstrap Bundle with Popper Cdn Link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
