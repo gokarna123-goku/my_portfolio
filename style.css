@@ -206,39 +206,12 @@ a{
     border: 2px solid var(--secondary);
 }
 
-/* About us Section Styling */
-.about_section{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 2rem;
-    row-gap: 1.3rem;
-}
-.about_img_box{
-    width: 45%;
-    height: auto;
-    background: #a8a8a8;
-    border-radius: 40px;
-}
-.about_img{
-    width: 100%;
-    height: 60vh;
-    padding: 0.4rem;
-    border-radius: 40px;
-}
 
-
-/* About information Styling */
-.info_section{
-    width: 50%;
-    height: auto;
-}
+/* Global For Ever Title Tag start here */
 .tag{
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: 600;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.09rem;
     color: var(--secondary);
 }
 .line_box{
@@ -259,7 +232,79 @@ a{
     box-shadow: 0px 0px 5px var(--secondary);
     margin-left: -2px;
 }
+/* Global For Ever Title Tag end here */
 
+
+/* About us Section Styling */
+.about_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    row-gap: 1.3rem;
+    border-bottom: 1px solid var(--secondary);
+}
+.about_img_box{
+    width: 45%;
+    height: auto;
+    background: #a8a8a8;
+    border-radius: 40px;
+}
+.about_img{
+    width: 100%;
+    height: 60vh;
+    padding: 0.4rem;
+    border-radius: 40px;
+}
+
+/* About information Styling */
+.info_section{
+    width: 50%;
+    height: auto;
+}
+.about_title{
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--primary);
+    letter-spacing: 0.03rem;
+}
+.btn_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.btn_cv{
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.btn_cv:hover{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.btn_talk{
+    background: transparent;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+    transition: 0.55s ease-out;
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: 0.08rem;
+}
+.btn_talk:hover{
+    background: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+}
 
 
 
@@ -276,6 +321,56 @@ a{
     padding: 0.6rem;
     border-radius: 40px;
 }
+
+/* Achievement Section Styling */
+.achievement_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 1.3rem;
+    border-bottom: 1px solid var(--secondary);
+}
+.achievement_box{
+    border-right: 1px solid var(--tertiary);
+    min-width: 260px;
+    height: auto;
+    text-align: center;
+}
+.last_child{
+    border-right: none;
+}
+.total_count{
+    font-size: 3.0rem;
+    font-weight: 500;
+    color: var(--primary);
+    letter-spacing: 0.03rem;
+}
+.achievement_title{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    letter-spacing: 0.01rem;
+}
+
+
+/* Education and Skill Section Styling */
+
+/* Skill Section Styling */
+.skill_section{
+    width: 49%;
+    height: auto;
+}
+
+
+/* Education Section Styling */
+.education_section{
+    width: 49%;
+    height: auto;
+}
+
+
 
 
 /* End Section */
