@@ -779,15 +779,146 @@ a{
 
 
 /* For Responsive to all devices */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 770px) {
     .top_logo_menu_section{
         display: none;
     }
     .bottom_section{
         display: none;
+        z-index: -1;
     }
     
 }
+
+@media screen and (max-width: 768px) {
+    .left_section{
+        display: none;
+    }
+    .right_section{
+        width: 100%;
+        margin: 4.5rem 0.5rem;
+    }
+    .content_body{
+        width: 100%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .home_section{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .my_info_section{
+        width: 100%;
+        height: auto;
+    }
+    .fullname {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 0.3rem;
+    }
+    .image_section{
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+    .my_img {
+        width: 100%;
+        height: 40vh;
+        border-radius: 30px;
+    }
+    /*  */
+    .about_section {
+        flex-wrap: wrap;
+        row-gap: 0rem;
+    }
+    .about_img_box {
+        width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+    .about_img {
+        width: 100%;
+        height: 40vh;
+        border-radius: 30px;
+    }
+    .info_section {
+        width: 100%;
+        height: auto;
+    }
+    .about_title {
+        font-size: 1.7rem;
+        letter-spacing: 0.02rem;
+        line-height: 2.16rem;
+    }
+
+    /*  */
+    .achievement_section {
+        flex-wrap: wrap;
+        column-gap: 0rem;
+    }
+    .achievement_box {
+        border: 1px solid var(--tertiary);
+        min-width: 100%;
+    }
+
+    /*  */
+    .skill_education_box{
+        flex-wrap: wrap;
+    }
+    .skill_section {
+        width: 100%;
+        height: auto;
+    }
+    .education_section {
+        width: 100%;
+        height: auto;
+    }
+    .duration {
+        gap: 0.5rem;
+    }
+    .start_date {
+        width: 105px;
+    }
+    .end_date {
+        width: 105px;
+    }
+
+    /*  */
+    .services_box {
+        width: 100%;
+        height: auto;
+    }
+    .service_logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*  */
+    .our_blog_section {
+        flex-wrap: wrap;
+        z-index: -1;
+    }
+
+    /*  */
+    .contact_box {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .contact_detail_box {
+        width: 100%;
+        height: auto;
+    }
+    .contact_info_box {
+        gap: 1rem;
+    }
+    .contact_form_box {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
 @media screen and (max-width: 478px) {
     .left_section{
         display: none;
@@ -834,6 +965,85 @@ a{
         width: 100%;
         height: auto;
         border-radius: 30px;
+    }
+    .about_img {
+        width: 100%;
+        height: 40vh;
+        border-radius: 30px;
+    }
+    .info_section {
+        width: 100%;
+        height: auto;
+    }
+    .about_title {
+        font-size: 1.7rem;
+        letter-spacing: 0.02rem;
+        line-height: 2.16rem;
+    }
+
+    /*  */
+    .achievement_section {
+        flex-wrap: wrap;
+        column-gap: 0rem;
+    }
+    .achievement_box {
+        border: 1px solid var(--tertiary);
+        min-width: 100%;
+    }
+
+    /*  */
+    .skill_education_box{
+        flex-wrap: wrap;
+    }
+    .skill_section {
+        width: 100%;
+        height: auto;
+    }
+    .education_section {
+        width: 100%;
+        height: auto;
+    }
+    .duration {
+        gap: 0.5rem;
+    }
+    .start_date {
+        width: 105px;
+    }
+    .end_date {
+        width: 105px;
+    }
+
+    /*  */
+    .services_box {
+        width: 100%;
+        height: auto;
+    }
+    .service_logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*  */
+    .our_blog_section {
+        flex-wrap: wrap;
+        z-index: -1;
+    }
+
+    /*  */
+    .contact_box {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .contact_detail_box {
+        width: 100%;
+        height: auto;
+    }
+    .contact_info_box {
+        gap: 1rem;
+    }
+    .contact_form_box {
+        width: 100%;
+        height: auto;
     }
 
 }
