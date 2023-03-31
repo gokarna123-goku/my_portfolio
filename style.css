@@ -669,9 +669,8 @@ a{
 .contact_title{
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--secondary);
+    color: var(--tertiary);
 }
-
 
 
 
