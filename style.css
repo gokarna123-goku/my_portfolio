@@ -796,7 +796,7 @@ a{
     }
     .right_section{
         width: 100%;
-        margin: 4.5rem 0.5rem;
+        margin: 4.5rem 1.7rem;
     }
     .content_body{
         width: 100%;
@@ -824,7 +824,7 @@ a{
     }
     .my_img {
         width: 100%;
-        height: 40vh;
+        height: 45vh;
         border-radius: 30px;
     }
     /*  */
@@ -839,7 +839,7 @@ a{
     }
     .about_img {
         width: 100%;
-        height: 40vh;
+        height: 45vh;
         border-radius: 30px;
     }
     .info_section {
@@ -847,9 +847,9 @@ a{
         height: auto;
     }
     .about_title {
-        font-size: 1.7rem;
+        font-size: 2.0rem;
         letter-spacing: 0.02rem;
-        line-height: 2.16rem;
+        line-height: 2.5rem;
     }
 
     /*  */
@@ -873,6 +873,14 @@ a{
     .education_section {
         width: 100%;
         height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .education_box {
+        width: 49% !important;
+        gap: 0.7rem;
     }
     .duration {
         gap: 0.5rem;
@@ -890,14 +898,40 @@ a{
         height: auto;
     }
     .service_logo {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
+    }
+
+    /*  */
+    .our_project_section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio_box {
+        width: 100%;
+        height: auto;
+        background: #013a48;
+    }
+    .portfolio_img {
+        width: 100%;
+        height: 50vh;
     }
 
     /*  */
     .our_blog_section {
         flex-wrap: wrap;
         z-index: -1;
+    }
+    .blog_box{
+        width: 100%;
+        height: auto;
+    }
+    .blog_img {
+        width: 100%;
+        height: 50vh;
     }
 
     /*  */
