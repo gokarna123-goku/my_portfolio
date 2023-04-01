@@ -208,6 +208,20 @@ a{
 }
 
 
+/* image_section */
+.image_section{
+    width: 46%;
+    height: auto;
+    background: #a8a8a8;
+    border-radius: 40px;
+}
+.my_img{
+    width: 100%;
+    height: 70vh;
+    padding: 0.6rem;
+    border-radius: 40px;
+}
+
 /* Global For Ever Title Tag start here */
 .tag{
     font-size: 2.2rem;
@@ -307,21 +321,6 @@ a{
     border: 2px solid var(--secondary);
 }
 
-
-
-/* image_section */
-.image_section{
-    width: 46%;
-    height: auto;
-    background: #a8a8a8;
-    border-radius: 40px;
-}
-.my_img{
-    width: 100%;
-    height: 70vh;
-    padding: 0.6rem;
-    border-radius: 40px;
-}
 
 /* Achievement Section Styling */
 .achievement_section{
