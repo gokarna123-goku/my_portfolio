@@ -81,7 +81,8 @@
         <!-- Navbar for small screen -->
         <div class="top_logo_menu_section py-3 px-4">
             <img src="./img/logo.png" alt="Logo" class="logo">
-            <button type="button" class="btn menu_bar">
+            <!-- modal button call -->
+            <button type="button" class="btn menu_bar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <i class="fa-solid fa-bars-staggered text-light"></i>
             </button>
         </div>
@@ -131,6 +132,25 @@
                         </button>
                     </li>
                 </ul>
+            </div>
+        </div>
+        <!-- Social Account in small devices -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content px-3">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Follow us for latest update</h5>
+                        <button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div> -->
+                </div>
             </div>
         </div>
         <!-- Body Content Section -->

@@ -775,6 +775,10 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.modal-content  {
+    border-radius: 0px !important; 
+    background: var(--secondary);
+}
 
 
 
