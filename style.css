@@ -71,7 +71,10 @@ a{
     position: relative;
     width: 18%;
     border-radius: 0px;
-    background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778__340.jpg");
+    /* background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778__340.jpg"); */
+    /* background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2023/01/05/05/13/ai-generated-7698114__340.jpg"); */
+    /* background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2021/12/20/12/45/woman-6882918__340.jpg"); */
+    background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2021/12/06/17/57/metaverse-6851144__340.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -571,7 +574,7 @@ a{
 .blog_box{
     width: 360px;
     height: auto;
-    background: var(--secondary);
+    background: #022028;
     transition: transform 0.5s ease-out;
 }
 .blog_box:hover{
@@ -596,19 +599,19 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--secondary);
+    background: #022028;
     border-bottom: 1px solid #013a48;
 }
 .publish_owner_date_box i{
-    color: #013a48;
+    color: var(--secondary);
 }
 .blog_publisher{
     font-size: 1.1rem;
-    color: #022028;
+    color: var(--secondary);
 }
 .blog_publish_date{
     font-size: 1.1rem;
-    color: #022028;
+    color: var(--secondary);
 }
 .blog_title{
     font-size: 1.6rem;
@@ -618,7 +621,7 @@ a{
 }
 .blog_desc{
     font-size: 0.999rem;
-    color: #013a48;
+    color: var(--tertiary);
 }
 .btn_read_more{
     background: #013a48;
