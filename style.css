@@ -436,21 +436,21 @@ a{
     gap: 1rem;
 }
 .start_date{
-    width: 150px;
-    background: #022028;
+    width: auto;
+    /* background: #022028; */
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--tertiary);
 }
 .indicator{
-    width: 20px;
-    height: 3px;
+    width: 15px;
+    height: 2px;
     background: var(--tertiary);
 }
 .end_date{
-    width: 150px;
-    background: #022028;
+    width: auto;
+    /* background: #022028; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -755,7 +755,7 @@ a{
     position: absolute;
     bottom: 0;    
     border-radius: 0px;
-    background: var(--img-gradient-mobile), url("https://cdn.pixabay.com/photo/2020/04/12/20/37/abstract-5035778__340.jpg");
+    background: var(--img-gradient), url("https://cdn.pixabay.com/photo/2021/12/06/17/57/metaverse-6851144__340.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
