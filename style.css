@@ -778,6 +778,14 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+/* .btn_sm_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    text-align: center;
+} */
 .modal-content  {
     border-radius: 0px !important; 
     background: var(--primary);
